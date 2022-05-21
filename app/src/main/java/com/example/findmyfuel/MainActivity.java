@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent dashScreen = new Intent(MainActivity.this, LoginActivity.class);
+                Intent dashScreen = new Intent(MainActivity.this, FuelRecords.class);
                 startActivity(dashScreen);
                 finish();
             }
